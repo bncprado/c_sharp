@@ -18,18 +18,28 @@
 // Console.WriteLine($"The name {firstFriend} has {firstFriend.Length} letters");
 // Console.WriteLine($"The name {secondFriend} has {secondFriend.Length} letters");
 
-// TRIM
+// // TRIM
 
-string greeting = "     Hello World!     ";
-Console.WriteLine($"[{greeting}]");
+// string greeting = "     Hello World!     ";
+// Console.WriteLine($"[{greeting}]");
 
-string trimmedGreeting = greeting.TrimStart();
-Console.WriteLine($"[{trimmedGreeting}]");
+// string trimmedGreeting = greeting.TrimStart();
+// Console.WriteLine($"[{trimmedGreeting}]");
 
-trimmedGreeting = greeting.TrimEnd();
-Console.WriteLine($"[{trimmedGreeting}]");
+// trimmedGreeting = greeting.TrimEnd();
+// Console.WriteLine($"[{trimmedGreeting}]");
 
-trimmedGreeting = greeting.Trim();
-Console.WriteLine($"[{trimmedGreeting}]");
+// trimmedGreeting = greeting.Trim();
+// Console.WriteLine($"[{trimmedGreeting}]");
 
-// The square brackets [ and ] help visualize what the Trim, TrimStart and TrimEnd methods do. The brackets show where whitespace starts and ends.
+// // The square brackets [ and ] help visualize what the Trim, TrimStart and TrimEnd methods do. The brackets show where whitespace starts and ends.
+
+// REPLACE, UPPER AND LOWER
+
+string sayHello = "Hello World!";
+Console.WriteLine(sayHello);
+sayHello = sayHello.Replace("Hello", "Greetings");
+Console.WriteLine(sayHello);
+
+Console.WriteLine(sayHello.ToUpper());
+Console.WriteLine(sayHello.ToLower());
