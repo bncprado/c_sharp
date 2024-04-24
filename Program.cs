@@ -59,27 +59,57 @@
 // Console.WriteLine(songLyrics.EndsWith("goodbye")); //false
 
 
-// NUMBERS
+// // NUMBERS
 
-//EXPLORE INTEGERS MATH
-int a = 18;
-int b = 6;
-int c = a + b;
-Console.WriteLine(c);
+// //EXPLORE INTEGERS MATH
+// int a = 18;
+// int b = 6;
+// int c = a + b;
+// Console.WriteLine(c);
 
-// + for subtraction
-// - for subtraction
-// * for multiplication
-// / for division
+// // + for subtraction
+// // - for subtraction
+// // * for multiplication
+// // / for division
 
-// Subtraction:
-c = a - b;
-Console.WriteLine(c);
+// // Subtraction:
+// c = a - b;
+// Console.WriteLine(c);
 
-// Multiplication:
-c = a * b;
-Console.WriteLine(c);
+// // Multiplication:
+// c = a * b;
+// Console.WriteLine(c);
 
-// Division:
-c = a / b;
-Console.WriteLine(c);
+// // Division:
+// c = a / b;
+// Console.WriteLine(c);
+
+
+// EXPLORE ORDER OF OPERATIONS (BIDMAS)
+
+// int a = 5;
+// int b = 4;
+// int c = 2;
+// int d = a + b * c;
+// Console.WriteLine(d); // 13
+
+// int a = 5;
+// int b = 4;
+// int c = 2;
+// int d = (a + b) * c;
+// Console.WriteLine(d); // 18
+
+// int e = (a + b) - 6 * c + (12 * 4) / 3 + 12;
+// Console.WriteLine(e);
+
+/*
+You may have noticed an interesting behavior for integers. Integer division always produces an integer result, even when you'd expect the result to include a decimal or fractional portion.
+
+If you haven't seen this behavior, try the following code:
+*/
+
+int a = 7;
+int b = 4;
+int c = 3;
+int d = (a + b) / c;
+Console.WriteLine(d);
