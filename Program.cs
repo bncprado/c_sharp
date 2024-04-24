@@ -8,3 +8,8 @@ Console.WriteLine(aFriend);
 
 // STRING INTERPOLATION:
 Console.WriteLine($"Hello {aFriend}");
+
+string firstFriend = "Maria";
+string secondFriend = "Sage";
+Console.WriteLine($"My friends are {firstFriend} and {secondFriend}");
+
