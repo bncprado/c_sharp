@@ -48,12 +48,38 @@
 // Console.WriteLine(sayHello.ToLower());
 
 
-// SEARCH STRINGS, STARTSWITH AND ENDSWITH METHODS
+// // SEARCH STRINGS, STARTSWITH AND ENDSWITH METHODS
 
-string songLyrics = "You say goodbye, and I say hello";
-Console.WriteLine(songLyrics.Contains("goodbye")); //true
-Console.WriteLine(songLyrics.Contains("greetings")); //false
+// string songLyrics = "You say goodbye, and I say hello";
+// Console.WriteLine(songLyrics.Contains("goodbye")); //true
+// Console.WriteLine(songLyrics.Contains("greetings")); //false
 
-Console.WriteLine(songLyrics.StartsWith("you")); //false (capital letter at the beginning)
-Console.WriteLine(songLyrics.EndsWith("hello")); //true
-Console.WriteLine(songLyrics.EndsWith("goodbye")); //false
+// Console.WriteLine(songLyrics.StartsWith("you")); //false (capital letter at the beginning)
+// Console.WriteLine(songLyrics.EndsWith("hello")); //true
+// Console.WriteLine(songLyrics.EndsWith("goodbye")); //false
+
+
+// NUMBERS
+
+//EXPLORE INTEGERS MATH
+int a = 18;
+int b = 6;
+int c = a + b;
+Console.WriteLine(c);
+
+// + for subtraction
+// - for subtraction
+// * for multiplication
+// / for division
+
+// Subtraction:
+c = a - b;
+Console.WriteLine(c);
+
+// Multiplication:
+c = a * b;
+Console.WriteLine(c);
+
+// Division:
+c = a / b;
+Console.WriteLine(c);
