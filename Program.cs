@@ -13,10 +13,12 @@
 // string secondFriend = "Sage";
 // Console.WriteLine($"My friends are {firstFriend} and {secondFriend}");
 
+
 // // LENGTH
 
 // Console.WriteLine($"The name {firstFriend} has {firstFriend.Length} letters");
 // Console.WriteLine($"The name {secondFriend} has {secondFriend.Length} letters");
+
 
 // // TRIM
 
@@ -34,12 +36,24 @@
 
 // // The square brackets [ and ] help visualize what the Trim, TrimStart and TrimEnd methods do. The brackets show where whitespace starts and ends.
 
-// REPLACE, UPPER AND LOWER
 
-string sayHello = "Hello World!";
-Console.WriteLine(sayHello);
-sayHello = sayHello.Replace("Hello", "Greetings");
-Console.WriteLine(sayHello);
+// // REPLACE, UPPER AND LOWER
 
-Console.WriteLine(sayHello.ToUpper());
-Console.WriteLine(sayHello.ToLower());
+// string sayHello = "Hello World!";
+// Console.WriteLine(sayHello);
+// sayHello = sayHello.Replace("Hello", "Greetings");
+// Console.WriteLine(sayHello);
+
+// Console.WriteLine(sayHello.ToUpper());
+// Console.WriteLine(sayHello.ToLower());
+
+
+// SEARCH STRINGS, STARTSWITH AND ENDSWITH METHODS
+
+string songLyrics = "You say goodbye, and I say hello";
+Console.WriteLine(songLyrics.Contains("goodbye")); //true
+Console.WriteLine(songLyrics.Contains("greetings")); //false
+
+Console.WriteLine(songLyrics.StartsWith("you")); //false (capital letter at the beginning)
+Console.WriteLine(songLyrics.EndsWith("hello")); //true
+Console.WriteLine(songLyrics.EndsWith("goodbye")); //false
