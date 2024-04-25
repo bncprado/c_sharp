@@ -136,3 +136,14 @@ The C# integer type differs from mathematical integers in one other way: the int
 int max = int.MaxValue;
 int min = int.MinValue;
 Console.WriteLine($"The range of integers is {min} to {max}");
+
+/*
+UNDERFLOW OR OVERFLOW
+
+If a calculation produces a value that exceeds those limits, you have an underflow or overflow condition. The answer appears to wrap from one limit to the other. Add these two lines to the interactive window to see an example:
+*/
+
+int what = max + 3;
+Console.WriteLine($"An example of overflow: {what}");
+
+/*Notice that the answer is very close to the minimum (negative) integer. It's the same as min + 2. The addition operation overflowed the allowed values for integers. The answer is a very large negative number because an overflow "wraps around" from the largest possible integer value to the smallest.*/

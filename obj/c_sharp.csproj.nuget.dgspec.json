@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Coding\\c_sharp\\c_sharp\\c_sharp.csproj": {}
+    "d:\\Coding\\c_sharp\\c_sharp\\c_sharp.csproj": {}
   },
   "projects": {
-    "D:\\Coding\\c_sharp\\c_sharp\\c_sharp.csproj": {
+    "d:\\Coding\\c_sharp\\c_sharp\\c_sharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Coding\\c_sharp\\c_sharp\\c_sharp.csproj",
+        "projectUniqueName": "d:\\Coding\\c_sharp\\c_sharp\\c_sharp.csproj",
         "projectName": "c_sharp",
-        "projectPath": "D:\\Coding\\c_sharp\\c_sharp\\c_sharp.csproj",
+        "projectPath": "d:\\Coding\\c_sharp\\c_sharp\\c_sharp.csproj",
         "packagesPath": "C:\\Users\\bncpr\\.nuget\\packages\\",
-        "outputPath": "D:\\Coding\\c_sharp\\c_sharp\\obj\\",
+        "outputPath": "d:\\Coding\\c_sharp\\c_sharp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bncpr\\AppData\\Roaming\\NuGet\\NuGet.Config"
