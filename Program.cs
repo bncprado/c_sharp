@@ -133,9 +133,9 @@ You can get the remainder by using the remainder operator, the % character:
 The C# integer type differs from mathematical integers in one other way: the int type has minimum and maximum limits. Run this code in the interactive window to see those limits:
 */
 
-int max = int.MaxValue;
-int min = int.MinValue;
-Console.WriteLine($"The range of integers is {min} to {max}");
+// int max = int.MaxValue;
+// int min = int.MinValue;
+// Console.WriteLine($"The range of integers is {min} to {max}");
 
 /*
 UNDERFLOW OR OVERFLOW
@@ -143,7 +143,26 @@ UNDERFLOW OR OVERFLOW
 If a calculation produces a value that exceeds those limits, you have an underflow or overflow condition. The answer appears to wrap from one limit to the other. Add these two lines to the interactive window to see an example:
 */
 
-int what = max + 3;
-Console.WriteLine($"An example of overflow: {what}");
+// int what = max + 3;
+// Console.WriteLine($"An example of overflow: {what}");
 
 /*Notice that the answer is very close to the minimum (negative) integer. It's the same as min + 2. The addition operation overflowed the allowed values for integers. The answer is a very large negative number because an overflow "wraps around" from the largest possible integer value to the smallest.*/
+
+//WORK WITH THE DOUBLE TYPE (includes decimals to the results)
+
+double a = 19;
+double b = 23;
+double c = 8;
+double d = (a + b) / c;
+Console.WriteLine(d);
+
+double max = double.MaxValue;
+double min = double.MinValue;
+Console.WriteLine($"The range of double is {min} to {max}"); // These values are printed out in scientific notation. The number to the left of the E is the significand. The number to the right is the exponent, as a power of 10.
+
+/* 
+Just like decimal numbers in math, doubles in C# can have rounding errors. Try this code:
+*/
+
+double third = 1.0 / 3.0;
+Console.WriteLine(third); //You know that 0.3 is 3/10 and not exactly the same as 1/3. Similarly, 0.33 is 33/100. That's closer to 1/3, but still not exact.
